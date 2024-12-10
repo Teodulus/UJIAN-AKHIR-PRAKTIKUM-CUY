@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('articles', function (Blueprint $table) {
             $table->id();
-            $table->string('title'); // Kolom untuk judul artikel
-            $table->text('full_text'); // Kolom untuk isi lengkap artikel
-            $table->string('image')->nullable(); // Kolom untuk gambar, opsional
-            $table->foreignId('category_id')->constrained('categories')->onDelete('cascade'); // Relasi ke tabel categories
-            $table->foreignId('user_id')->constrained('users')->onDelete('cascade'); // Relasi ke tabel users
+            $table->string('title');
+            $table->text('full_text');
+            $table->string('image')->nullable();
+            $table->foreignId('user_id')->constrained();
+            $table->foreignId('category_id')->nullable()->constrained()->onDelete('set null');
             $table->timestamps();
         });
     }

@@ -3,6 +3,8 @@ use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\StaticPageController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\CategoryController; // Tambahkan
+use App\Http\Controllers\TagController; // Tambahkan
 
 Route::get('/', [ArticleController::class, 'index'])->name('homepage');
 Route::get('/article/{id}', [ArticleController::class, 'show'])->name('article.show');

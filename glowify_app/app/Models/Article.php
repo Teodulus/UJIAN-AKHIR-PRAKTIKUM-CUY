@@ -9,7 +9,9 @@ class Article extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'full_text', 'image', 'category_id', 'user_id'];
+    protected $fillable = [
+        'title', 'full_text', 'image', 'user_id', 'category_id'
+    ];
 
     public function category()
     {
@@ -21,7 +23,7 @@ class Article extends Model
         return $this->belongsToMany(Tag::class);
     }
 
-    public function user()
+    public function user() 
     {
         return $this->belongsTo(User::class);
     }

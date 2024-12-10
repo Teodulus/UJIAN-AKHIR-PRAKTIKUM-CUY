@@ -9,7 +9,7 @@ class ArticleController extends Controller
     public function index()
     {
         $articles = Article::with('category')->get();
-        return view('homepage', compact('articles'));
+        return view('about', compact('articles'));
     }
 
     public function show($id)
