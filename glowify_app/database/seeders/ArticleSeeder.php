@@ -23,29 +23,16 @@ class ArticleSeeder extends Seeder
         // Define hardcoded articles
         $articles = [
             [
-                'title' => 'Game Turn-Based RPG Tersulit Sepanjang Masa',
+                'title' => 'nasi babi ',
                 'full_text'
-                => 'Bagi pemain yang bukan penggemar game RPG berbasis giliran umumnya akan menyebut jika game semacam itu membosankan dan repetitif alih-alih menantang.
-                Padahal, jika dibanding dengan game RPG dengan sistem combat real-time,
-                RPG dengan sistem combat berbasis giliran menawarkan keseimbangan yang baik antara menyenangkan dan menantang.
-                Berikut 7 diantaranya yang paling sulit sepanjang masa.
-                
-                1. Phantasy Star 2
-                Satu hal unik mengenai Phantasy Star 2 adalah tidak hanya musuh yang membuat game ini sulit, tapi juga layout dari dungeon yang diusungnya. 
-                Dungeon di game ini bak labirin yang bisa membuat pemain tersesat dan bahkan berlapis-lapis sehingga membuat proses eksplorasi jadi bisa sangat membingungkan. 
-                Karenanya, mudah bagi pemain untuk tidak hanya berputar-putar di satu area yang sama saja, tapi juga terus dibombardir dengan segudang musuh yang tak kalah sulit untuk dikalahkan.
-                
-                2. Shin Megami Tensei
-                Game-game Shin Megami Tensei punya reputasi sebagai game yang sulit dari kebanyakan game RPG berbasis giliran, karena pemain bisa dengan mudah mendapatkan tulisan ‘game over’ jika tidak berhati-hati. 
-                Hal tersebut juga terjadi di Nocturne yang bahkan memiliki beberapa bos awal dengan tingkat kesulitan tinggi, terutama Matador. 
-                Bagi pemain yang tidak pernah bermain game RPG berbasis giliran atau Nocturne jadi game Shin Megami Tensei pertama mereka, pemain harus terbiasa untuk sering mati.
+                => 'soto goreng.
                 ',
                 'image' => null,  // Placeholder image for AI
                 'user_id' => $userIds[array_rand($userIds)], // Random user
                 'category_id' => $categoryId, // Technology category
             ],
             [
-                'title' => 'Blockchain: Revolutionizing Security',
+                'title' => 'All About Makeup: Types and Application Techniques',
                 'full_text' => 'Blockchain technology is quickly becoming one of the most revolutionary innovations in the field of digital security. At its core, blockchain offers a decentralized and tamper-proof ledger that records transactions across a network of computers, making it virtually impossible to alter or hack. This immutability is a game-changer for industries that rely on secure and transparent record-keeping, such as finance, healthcare, and logistics. By removing the need for intermediaries like banks or third parties, blockchain enables faster and more secure transactions, reducing the risk of fraud and human error.
 
                 In the finance sector, blockchains impact is already being felt with the rise of cryptocurrencies like Bitcoin and Ethereum. These decentralized currencies are not controlled by any central authority, offering users greater privacy and autonomy over their financial transactions. Additionally, blockchain-based smart contracts enable automatic execution of agreements, reducing the need for manual oversight and ensuring that terms are met. These advancements are disrupting traditional banking systems and paving the way for a new era of financial innovation.
@@ -58,7 +45,7 @@ class ArticleSeeder extends Seeder
                 'category_id' => $categoryId, // Technology category
             ],
             [
-                'title' => 'The Impact of 5G on the Tech Industry',
+                'title' => 'sotogorengg',
                 'full_text' => 'The advent of 5G technology is set to transform the tech industry, ushering in a new era of connectivity and performance. With faster download and upload speeds, lower latency, and the ability to connect more devices simultaneously, 5G is expected to unlock a wide range of innovations across various sectors. In the realm of the Internet of Things (IoT), 5Gs speed and reliability will enable smarter cities, with connected infrastructure, vehicles, and devices working seamlessly together. This enhanced connectivity will lead to more efficient urban planning, improved traffic management, and better resource allocation.
 
                 5G will also play a crucial role in the development of augmented reality (AR) and virtual reality (VR) technologies. The high bandwidth and low latency of 5G networks will provide the foundation for more immersive and interactive AR and VR experiences. These advancements will revolutionize industries like gaming, entertainment, and education, offering users unprecedented levels of engagement. In the healthcare sector, 5Gs ability to transmit large amounts of data quickly and with minimal delay will facilitate the growth of telemedicine, remote surgery, and real-time monitoring of patients.
